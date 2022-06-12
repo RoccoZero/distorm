@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="clib|Win32">
@@ -31,26 +31,26 @@
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>NotSet</CharacterSet>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='clib|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>NotSet</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='dll|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>NotSet</CharacterSet>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='clib|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>NotSet</CharacterSet>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -90,8 +90,8 @@
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='dll|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='dll|x64'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='dll|x64'" />
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='dll|Win32'">distorm3</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='dll|x64'">distorm3</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='dll|Win32'">distorm</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='dll|x64'">distorm</TargetName>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='dll|x64'">$(SolutionDir)..\..\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='dll|Win32'">$(SolutionDir)..\..\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='clib|Win32'">$(SolutionDir)..\..\</OutDir>
@@ -170,7 +170,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>CompileAsC</CompileAs>
       <BufferSecurityCheck>true</BufferSecurityCheck>
-      <ProgramDataBaseFileName>distorm3.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>distorm.pdb</ProgramDataBaseFileName>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link />
@@ -199,7 +199,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>CompileAsC</CompileAs>
       <BufferSecurityCheck>true</BufferSecurityCheck>
-      <ProgramDataBaseFileName>distorm3.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>distorm.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <TargetMachine>MachineX64</TargetMachine>
