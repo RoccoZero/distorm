@@ -144,7 +144,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
       <CompileAs>CompileAsC</CompileAs>
       <ProgramDataBaseFileName>distorm.pdb</ProgramDataBaseFileName>
     </ClCompile>
@@ -196,7 +196,7 @@
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DebugInformationFormat>None</DebugInformationFormat>
       <CompileAs>CompileAsC</CompileAs>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <ProgramDataBaseFileName>distorm.pdb</ProgramDataBaseFileName>
